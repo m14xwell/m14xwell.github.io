@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#destaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ajuste de altura para centralizar verticalmente */
+}
+
+#destaque img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.destaque {
+    font-weight: bold;
+    color: #ff5722; /* Cor laranja destacada */
+    font-size: 1.2em; /* Aumenta um pouco o tamanho da fonte */
+}
+/* Reseta as margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajusta a altura do body e html para ocupar a tela toda */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a estrutura de layout */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header estilizado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estiliza a navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main para ocupar o espaço disponível */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Seção de destaque centralizada */
+#destaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ajuste de altura para centralizar verticalmente */
+}
+
+#destaque img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para destacar o texto */
+.destaque {
+    font-weight: bold;
+    color: #ff5722; /* Cor laranja destacada */
+    font-size: 1.2em; /* Aumenta um pouco o tamanho da fonte */
+}
